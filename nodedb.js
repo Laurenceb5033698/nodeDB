@@ -1,6 +1,6 @@
 const sqlite3 = require('sqlite3').verbose();
 const fs = require('fs');
-const dbFile = 'northwind.db';
+const dbFile = '../../sql/northwind/northwind.db';
 const dbExists = fs.existsSync(dbFile);
 const readline = require('readline').createInterface({
     input: process.stdin,
